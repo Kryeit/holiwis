@@ -3,7 +3,16 @@ site_url: https://kryeit.wiki
 repo_url: https://github.com/Kryeit/holiwis
 nav:
   - Home: index.md
+  - Survival:
+      - Season 3:
+          - Getting Started: server/getting-started.md
+          - Specs: server/specs.md
+      
   - Posts:
       - Commands: posts/commands.md
+      - History Timeline: posts/history.md
+  - Our Mods:
+      - Telepost: homemade/telepost.md
+      - 'Create: Missions': homemade/missions.md
 theme:
     name: simple-blog
