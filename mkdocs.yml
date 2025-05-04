@@ -1,0 +1,9 @@
+site_name: Holiwis
+site_url: https://kryeit.wiki
+repo_url: https://github.com/Kryeit/holiwis
+nav:
+  - Home: index.md
+  - Posts:
+      - Commands: posts/commands.md
+theme:
+    name: simple-blog

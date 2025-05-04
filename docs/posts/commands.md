@@ -1,0 +1,6 @@
+- `/post`: Shows where the nearest post is *(/nearestpost and /closestpost as aliases)*
+- `/visit <Player/Post>`: Teleports to a post. Requires to be near a post *(/v as alias)*
+- `/sethome`: Sets the nearest post as your home
+- `/home`: Teleports to your homepost. Requires to be near a post *(/h as alias)*
+- `/postlist [page]`: Lists posts in chat, lets you click them to teleport
+- `/`

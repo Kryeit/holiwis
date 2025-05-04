@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Minecraftia";
+    src: url("https://fonts.bunny.net/minecraftia/minecraftia.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Minecraftia", sans
+}
