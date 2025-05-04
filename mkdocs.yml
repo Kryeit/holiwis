@@ -6,13 +6,15 @@ nav:
   - Survival:
       - Season 3:
           - Getting Started: server/getting-started.md
+          - Posts:
+              - Commands: posts/commands.md
+              - History Timeline: posts/history.md
+          - Claims:
+              - Commands: claims/commands.md
           - Specs: server/specs.md
-      
-  - Posts:
-      - Commands: posts/commands.md
-      - History Timeline: posts/history.md
   - Our Mods:
       - Telepost: homemade/telepost.md
       - 'Create: Missions': homemade/missions.md
+  - Contributing: contributing.md
 theme:
     name: simple-blog
