@@ -9,31 +9,35 @@ on:
 permissions:
   contents: write
 
+# define cache_id so the key isn't empty
+env:
+  cache_id: ${{ runner.os }}-pip-mkdocs-${{ hashFiles('requirements.txt') }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Configure Git Credentials
+      - name: Configure Git credentials
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Cache pip and MkDocs cache
-        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-
-      - uses: actions/cache@v4
+        uses: actions/cache@v4
         with:
           key: mkdocs-${{ env.cache_id }}
-          path:
-            - .cache
-            - ~/.cache/pip
+          path: |
+            .cache
+            ~/.cache/pip
 
       - name: Install MkDocs & Plugins
         run: |
