@@ -17,4 +17,4 @@ nav:
       - 'Create: Missions': homemade/missions.md
   - Contributing: contributing.md
 theme:
-    name: simple-blog
+    name: material
