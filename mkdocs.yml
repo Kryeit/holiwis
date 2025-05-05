@@ -11,6 +11,9 @@ nav:
               - History Timeline: posts/history.md
           - Claims:
               - Commands: claims/commands.md
+          - Community:
+              - Newspaper Archive:
+                  - The Shipbuilder: community/newspaper/the-shipbuilder.md
           - Specs: server/specs.md
   - Our Mods:
       - About: homemade/about.md
@@ -18,6 +21,8 @@ nav:
       - 'Create: Missions': homemade/missions.md
   - Contributing: contributing.md
 theme:
+    favicon: images/icon.png
+    logo: images/icon.png
     name: material
 plugins:
    - search
