@@ -1,8 +1,9 @@
-If you are new, welcome! [This modpack](https://modrinth.com/modpack/kryeit) is mandatory to join the server. Although you may use any of the [Kryeit modpacks](https://kryeit.com/modpacks).
+This is a Java Minecraft server focused in the [Create mod](https://createmod.net). We aim for a long term mindset and a technical minecraft focus, although we welcome any playstyle.
 
-The server IP is `kryeit.com`.
+### How to join
+[This modpack](https://modrinth.com/modpack/kryeit) is mandatory to join the server. Although you may use any of the [Kryeit modpacks](https://kryeit.com/modpacks).
 
-Kryeit survival is fairly simple, you can just join and play it out as if it was vanilla. Although you'll want to go further than that. We are focused entirely in the [Create mod](https://createmod.net), but there's a variety of mods that work well with the mod. 
+The server IP is `kryeit.com`. The server doesn't have any Whitelist, anyone can join!
 
 We have some systems in place that you probably want to learn about if you're sticking here:
 

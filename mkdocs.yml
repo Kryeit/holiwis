@@ -13,6 +13,7 @@ nav:
               - Commands: claims/commands.md
           - Specs: server/specs.md
   - Our Mods:
+      - About: homemade/about.md
       - Telepost: homemade/telepost.md
       - 'Create: Missions': homemade/missions.md
   - Contributing: contributing.md
