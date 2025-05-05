@@ -19,3 +19,24 @@ nav:
   - Contributing: contributing.md
 theme:
     name: material
+plugins:
+   - search
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: fade
+       slide_effect: slide
+       zoomable: true
+       draggable: true
+       auto_caption: true
+       caption_position: bottom
+       background: transparent
+       shadow: true
+       manual: false
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.blocks.caption

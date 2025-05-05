@@ -35,10 +35,18 @@ jobs:
             .cache
             ~/.cache/pip
 
-      - name: Install MkDocs & Plugins
+            - name: Install MkDocs & Plugins
         run: |
           pip install mkdocs
           pip install mkdocs-material
+          pip install mkdocs-singlefile-plugin
+
+      - name: Build & Deploy Single-File Site
+        run: |
+          # build into `site/` as one big index.html
+          mkdocs build --clean --singlefile
+          # push it to gh-pages
+          mkdocs gh-deploy --force --message "ci: deploy single-file site"
 
       - name: Build & Deploy
         run: mkdocs gh-deploy --force

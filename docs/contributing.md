@@ -10,3 +10,6 @@ The only place you can contribute to this wiki is through the [Github](https://g
 
 ### Modify the wiki on phone
 The Github app actually lets you modify the page and create a pull request really easy!
+
+### Helpful tips
+- You can use any emoji from [here](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search) like `:material-cog:` which is a :material-cog:
