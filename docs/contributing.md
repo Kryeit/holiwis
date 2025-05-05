@@ -13,3 +13,17 @@ The Github app actually lets you modify the page and create a pull request reall
 
 ### Helpful tips
 - You can use any emoji from [here](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search) like `:material-cog:` which is a :material-cog:
+- If you want to see how your edition would look, you can go to [Markdown Editor]() but if you want to test if locally keep reading!
+
+### Test locally
+- Install [Python](https://www.python.org/downloads/)
+- Open the project folder
+- Go to `Terminal` > `New Terminal`
+- Install *holiwis'* dependencies:
+```python
+pip install mkdocs
+pip install mkdocs-material
+pip install mkdocs-glightbox
+```
+- Run `python -m mkdocs serve` or `mkdocs serve`
+- Go to http://localhost:8000/
